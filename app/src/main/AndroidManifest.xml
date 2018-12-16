@@ -10,16 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity" />
-        <activity android:name=".FrontActivity">
+        <activity android:name=".FrontActivity"></activity>
+        <activity android:name=".MenuActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MenuActivity" />
         <activity android:name=".VorasonActivity" />
-        <activity android:name=".WarakornActivity"></activity>
+        <activity android:name=".WarakornActivity" />
+        <activity android:name=".VorasonFrontActivity" />
+        <activity android:name=".WarakornFrontActivity"></activity>
     </application>
 
 </manifest>

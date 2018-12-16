@@ -14,7 +14,7 @@
 
 
         <LinearLayout
-            android:id="@+id/layoutInfo"
+            android:id="@+id/layoutInfoW"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
@@ -33,11 +33,11 @@
                     android:src="@drawable/ic_telephone" />
 
                 <TextView
+                    android:id="@+id/telw"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="tel"
                     android:textSize="30dp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
             </LinearLayout>
 
@@ -53,9 +53,9 @@
                     android:src="@drawable/ic_email" />
 
                 <TextView
+                    android:id="@+id/emailw"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="email"
                     android:textSize="30dp"
                     android:textStyle="bold" />
 
@@ -73,9 +73,9 @@
                     android:src="@drawable/ic_facebook" />
 
                 <TextView
+                    android:id="@+id/fbw"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="fb"
                     android:textSize="30dp"
                     android:textStyle="bold" />
 
@@ -93,9 +93,9 @@
                     android:src="@drawable/ic_instagram" />
 
                 <TextView
+                    android:id="@+id/igw"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="ig"
                     android:textSize="30dp"
                     android:textStyle="bold" />
 

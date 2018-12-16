@@ -31,10 +31,10 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View v) {
         if (v == btn1) {
-            startActivity(new Intent(this, VorasonActivity.class));
+            startActivity(new Intent(this, VorasonFrontActivity.class));
         }
         if (v == btn2) {
-            startActivity(new Intent(this, WarakornActivity.class));
+            startActivity(new Intent(this, WarakornFrontActivity.class));
         }
         if (v == btn3) {
             startActivity(new Intent(this, FrontActivity.class));
